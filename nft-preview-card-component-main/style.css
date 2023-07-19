@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap);
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container-all {
+    width: 350px;
+    height: 596px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.infos {
+    display:flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding: 4px 0px 4px 4px;
+}
+
+.imagem1 {
+    display:flex;
+    width: 302px;       
+    height: 302px;
+    padding: 24px 24px 0px 24px;
+}
+
+.imagem1 img {
+    border-radius: 8px;
+}
+
+.imagem2 {
+    display:flex;
+    width: 33px;
+    height: 33px;
+    padding: 11px;
+}
+
+.imagem2 img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.recorte {
+    width: 302px;
+    height: 1px;
+    background-color:  hsl(215, 32%, 27%);
+}
+
+.creation {
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 22px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+}
+
+.jules-wyvern {
+    color: white;
+}
+
+.card {
+    padding: 12px 24px 24px 24px;
+}

@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap); 
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container-all {
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.container-cima .image-victor {
+    position: absolute;
+    top: 50px;
+    right: 122px;
+}
+
+.card-body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 250px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.retangle {
+    background-color: hsl(0, 0%, 59%);
+    width: 350px;
+    height: 1px;
+}
+
+.container-cima {
+    height: 150px;
+    width: 350px;
+    background: url(images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.image-victor {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 50px auto 30px auto;
+    border: 5px solid white; 
+}
+
+.image-victor img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.text1 h1 {
+    font-size: 18px;
+}
+
+.text1 p {
+    font-size: 14px;
+}
+
+.text2 h1 {
+    font-size: 18px;
+}
+
+.text2 p {
+    font-size: 14px;
+}
+
+.text3 h1 {
+    font-size: 18px;
+}
+
+.text3 p {
+    font-size: 14px;
+}
+
+.one h1 {
+    font-size: 22px;
+}
+
+.one p {
+    font-size: 14px;
+}
